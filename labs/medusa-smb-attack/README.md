@@ -678,9 +678,9 @@ Contribuições são bem-vindas! Para contribuir:
 
 **Desenvolvido para fins educacionais**
 
-- 💼 LinkedIn: [Seu Perfil]
-- 🐙 GitHub: [@seu-usuario](https://github.com/seu-usuario)
-- 📧 Email: seu-email@exemplo.com
+- 💼 LinkedIn: [[ptrcosta](https://www.linkedin.com/in/ptrcosta/)]
+- 🐙 GitHub: [@3S00mc](https://github.com/3S00mc)
+- 📧 Email: ptrcosta@proton.me
 
 ---
 
