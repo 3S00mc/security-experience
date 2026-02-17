@@ -1,0 +1,10 @@
+admin
+user
+msfadmin
+root
+administrator
+guest
+test
+postgres
+tomcat
+service

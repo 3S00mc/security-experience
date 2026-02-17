@@ -1,0 +1,102 @@
+# ============================================
+# SECURITY EXPERIENCE REPOSITORY - .gitignore
+# ============================================
+
+# Logs e resultados de testes
+logs/
+*.log
+results/
+output/
+*.out
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Credenciais descobertas (NUNCA versionar)
+credentials.txt
+found_passwords.txt
+discovered_*.txt
+*_credentials*
+*_passwords*
+
+# Configurações locais
+*.local
+config.local.*
+.env.local
+
+# IDEs e editores
+.vscode/
+.idea/
+*.sublime-*
+*.code-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+ENV/
+
+# Arquivos de banco de dados
+*.db
+*.sqlite
+*.sqlite3
+
+# Capturas de tela com informações sensíveis
+screenshots/sensitive/
+evidence/private/
+
+# Relatórios com dados reais (apenas templates devem ser versionados)
+reports/private/
+reports/*_CONFIDENTIAL*
+
+# Wordlists muito grandes (opcional)
+# wordlists/large/
+# wordlists/*_million*
+
+# Exploits privados ou 0-days
+exploits/private/
+0day/
+
+# Chaves e certificados
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+id_rsa*
+id_dsa*
+
+# Backups
+*.bak
+*.backup
+*~
+
+# Arquivos compactados temporários
+*.zip
+*.tar.gz
+*.rar
+# Exceto releases oficiais em /releases/

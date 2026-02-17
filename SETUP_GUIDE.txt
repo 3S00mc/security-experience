@@ -1,0 +1,174 @@
+╔══════════════════════════════════════════════════════════════════╗
+║            SECURITY EXPERIENCE PORTFOLIO - SETUP GUIDE           ║
+║                     Pedro Luiz Costa (@3S00mc)                   ║
+╚══════════════════════════════════════════════════════════════════╝
+
+📦 INSTALAÇÃO E CONFIGURAÇÃO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Este guia irá te ajudar a configurar o repositório Security Experience 
+no seu GitHub e começar a documentar sua jornada em cibersegurança.
+
+
+🔧 PASSO 1: PREPARAR O REPOSITÓRIO LOCAL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1.1 Extrair o arquivo compactado:
+    tar -xzf security-experience.tar.gz
+    cd security-experience/
+
+1.2 Inicializar Git:
+    git init
+    git add .
+    git commit -m "Initial commit: Security Experience Portfolio setup"
+
+
+🌐 PASSO 2: ATUALIZAR REPOSITÓRIO NO GITHUB
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2.1 Conectar ao repositório existente:
+    git remote add origin https://github.com/3S00mc/security-experience.git
+
+2.2 Fazer backup do conteúdo atual (se houver):
+    git fetch origin
+    git checkout -b backup-old-repo origin/main
+    git checkout -b main
+
+2.3 Fazer push do novo conteúdo:
+    git push -u origin main --force
+    # ⚠️ Isso sobrescreverá o conteúdo atual!
+
+
+📝 PASSO 3: PERSONALIZAÇÃO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+3.1 Atualizar informações pessoais no README.md principal:
+    - Verificar links do LinkedIn
+    - Adicionar email se desejar
+    - Atualizar seção "Sobre Mim"
+
+3.2 Configurar topics no GitHub:
+    Vá em: Settings → Topics
+    Adicione: security, hacking, owasp, cybersecurity, pentest, 
+             ethical-hacking, webhacking, pentesting-tools, 
+             whitehacking, offensive-security
+
+3.3 Ativar GitHub Pages (opcional):
+    Settings → Pages → Source: main branch / docs
+
+
+🎯 PASSO 4: COMEÇAR A ADICIONAR CONTEÚDO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+4.1 Adicionar novos labs:
+    cd labs/
+    mkdir meu-novo-lab/
+    # Copie a estrutura do medusa-smb-attack como template
+
+4.2 Adicionar write-ups:
+    cd writeups/hackthebox/
+    mkdir nome-da-maquina/
+    # Crie um README.md seguindo o template
+
+4.3 Adicionar ferramentas:
+    cd tools/scanners/
+    # Adicione seus scripts customizados
+
+
+📊 ESTRUTURA DO REPOSITÓRIO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+security-experience/
+├── labs/                    # Laboratórios práticos
+│   ├── medusa-smb-attack/   # ✅ Lab completo (template)
+│   └── README.md
+├── tools/                   # Ferramentas customizadas
+│   ├── scanners/
+│   ├── exploits/
+│   ├── automation/
+│   └── README.md
+├── writeups/                # Write-ups de CTFs
+│   ├── hackthebox/
+│   ├── tryhackme/
+│   ├── vulnhub/
+│   └── README.md
+├── resources/               # Recursos de apoio
+│   ├── checklists/
+│   ├── templates/
+│   ├── notes/
+│   └── README.md
+├── README.md                # README principal (LEIA PRIMEIRO!)
+├── LICENSE                  # Licença MIT + Disclaimer Ético
+└── .gitignore               # Ignora credenciais e logs
+
+
+💡 DICAS IMPORTANTES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ FAÇA:
+• Documente tudo que você aprender
+• Tire screenshots de evidências
+• Mantenha commits organizados e descritivos
+• Atualize o README principal quando adicionar novos labs
+• Revise o .gitignore antes de commits
+
+❌ NÃO FAÇA:
+• Nunca commite credenciais reais descobertas
+• Não suba logs com informações sensíveis
+• Não publique 0-days ou exploits privados
+• Não ignore os avisos de uso ético
+
+
+🚀 WORKFLOW RECOMENDADO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Completar um lab ou máquina
+2. Documentar o processo (screenshots, comandos, descobertas)
+3. Criar/atualizar README do lab
+4. Testar todos os scripts/comandos
+5. Revisar documentação
+6. Commit e push:
+   git add .
+   git commit -m "feat: adiciona lab de [nome]"
+   git push origin main
+
+
+📚 PRÓXIMOS PASSOS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+□ Completar primeiro lab (medusa-smb-attack já está pronto!)
+□ Adicionar 3-5 write-ups de máquinas do HackTheBox/TryHackMe
+□ Criar pelo menos 2 ferramentas customizadas
+□ Documentar checklists de pentest
+□ Manter repositório atualizado semanalmente
+□ Compartilhar no LinkedIn quando atingir milestones
+
+
+🔗 LINKS ÚTEIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+• Seu repositório: https://github.com/3S00mc/security-experience
+• Markdown Guide: https://www.markdownguide.org/
+• GitHub Badges: https://shields.io/
+• Git Commands: https://education.github.com/git-cheat-sheet-education.pdf
+
+
+⚠️  LEMBRETE DE SEGURANÇA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Este repositório é PÚBLICO e EDUCACIONAL.
+
+• Nunca commite credenciais reais
+• Sempre use ambientes controlados (VMs)
+• Respeite leis de segurança cibernética
+• Mantenha ética em todas as atividades
+
+
+═══════════════════════════════════════════════════════════════════
+              🛡️ Security Experience Portfolio
+         Documentando a jornada em Cybersecurity
+                   @3S00mc | 2026
+═══════════════════════════════════════════════════════════════════
+
+Boa sorte na sua jornada! 🚀🔐
+

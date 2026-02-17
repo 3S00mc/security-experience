@@ -1,0 +1,93 @@
+MIT License
+
+Copyright (c) 2026 Pedro Luiz Costa (3S00mc)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+===============================================================================
+EDUCATIONAL USE & ETHICAL HACKING DISCLAIMER
+===============================================================================
+
+This repository contains educational material related to cybersecurity,
+penetration testing, and ethical hacking. ALL CONTENT is provided for
+EDUCATIONAL PURPOSES ONLY.
+
+STRICT CONDITIONS OF USE:
+
+1. AUTHORIZED USE ONLY
+   - Use this material ONLY on systems you own or have explicit written
+     permission to test
+   - Unauthorized access to computer systems is ILLEGAL worldwide
+   - Always obtain proper authorization before conducting any security testing
+
+2. CONTROLLED ENVIRONMENTS
+   - All demonstrations, labs, and scripts should be executed in isolated,
+     controlled environments (personal VMs, authorized labs, CTF platforms)
+   - NEVER use these tools or techniques on production systems without
+     proper authorization
+
+3. RESPONSIBLE DISCLOSURE
+   - If you discover vulnerabilities using knowledge from this repository,
+     follow responsible disclosure practices
+   - Report vulnerabilities to the appropriate parties before public disclosure
+   - Never exploit vulnerabilities for malicious purposes
+
+4. NO WARRANTY
+   - The author provides NO WARRANTY for the accuracy, completeness, or
+     effectiveness of any material in this repository
+   - Use at your own risk
+
+5. LIABILITY
+   - The author is NOT responsible for:
+     * Any misuse of the information or tools provided
+     * Any illegal activities conducted using this material
+     * Any damage caused by the use of this material
+   - Users take FULL RESPONSIBILITY for their actions
+
+6. LEGAL COMPLIANCE
+   - Users must comply with ALL applicable laws and regulations including:
+     * Computer Fraud and Abuse Act (CFAA) - USA
+     * Marco Civil da Internet (Lei 12.965/2014) - Brazil
+     * Lei Geral de Proteção de Dados (LGPD) - Brazil
+     * Council of Europe Convention on Cybercrime
+     * All local and international cybersecurity laws
+
+7. ETHICAL CONDUCT
+   - Follow the ethical guidelines of the cybersecurity community
+   - Respect privacy and confidentiality
+   - Never cause intentional harm or disruption
+   - Promote security awareness and education
+
+VIOLATION WARNING:
+Violation of these conditions or applicable laws may result in:
+- Criminal prosecution
+- Civil liability
+- Permanent ban from using this repository
+- Damage to professional reputation
+
+BY USING THIS REPOSITORY, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD,
+AND AGREE TO THESE CONDITIONS.
+
+===============================================================================
+
+For questions or concerns regarding ethical use, please contact:
+LinkedIn: https://www.linkedin.com/in/ptrcosta/
+GitHub: @3S00mc
+
+Last Updated: February 2026

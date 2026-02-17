@@ -1,0 +1,15 @@
+123456
+password
+admin
+msfadmin
+root
+12345678
+qwerty
+abc123
+password123
+letmein
+welcome
+admin123
+Password1
+changeme
+123456789

