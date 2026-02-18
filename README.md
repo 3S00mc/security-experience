@@ -139,11 +139,12 @@ Este portfólio segue as melhores práticas e metodologias reconhecidas pela ind
 
 ## 🏆 Certificações e Objetivos
 
-### 🎯 Certificações Planejadas (2025-2026)
-- [ ] **eJPT** (eLearnSecurity Junior Penetration Tester)
+### 🎯 Certificações Planejadas (2026-2027)
+- [ ] **DCPT** (Desec Certified Penetration Tester)
+- [ ] **CompTIA Security+**
+- [ ] **CSIRT** (CSIRT - Hackers do Bem)
 - [ ] **OSCP** (Offensive Security Certified Professional)
 - [ ] **CEH** (Certified Ethical Hacker)
-- [ ] **CompTIA Security+**
 
 ### 📚 Plataformas de Aprendizado
 - [x] **TryHackMe**: Offensive Pentesting Path
@@ -190,7 +191,7 @@ Sinta-se livre para contribuir com:
 ### 📧 Contato
 - **LinkedIn**: [Pedro Luiz Costa](https://www.linkedin.com/in/ptrcosta/)
 - **GitHub**: [@3S00mc](https://github.com/3S00mc)
-- **Email**: [Disponível no LinkedIn]
+- **Email**: [ptrcosta@proton.me](ptrcosta@proton.me)
 
 ---
 
@@ -216,27 +217,27 @@ Sinta-se livre para contribuir com:
 
 ---
 
-## 📈 Roadmap 2025
+## 📈 Roadmap 2026
 
-### Q1 2025 (Janeiro - Março)
+### Q1 2026 (Janeiro - Março)
 - [x] Setup inicial do repositório
 - [x] Lab: Medusa SMB Brute Force Attack
 - [ ] Lab: SQL Injection (DVWA/bWAPP)
 - [ ] Lab: XSS Attacks (Reflected, Stored, DOM)
 
-### Q2 2025 (Abril - Junho)
+### Q2 2026 (Abril - Junho)
 - [ ] Lab: CSRF Exploitation
 - [ ] Lab: File Upload Vulnerabilities
 - [ ] Lab: IDOR & Broken Access Control
 - [ ] Certificação: eJPT
 
-### Q3 2025 (Julho - Setembro)
+### Q3 2026 (Julho - Setembro)
 - [ ] Lab: API Security Testing (REST/GraphQL)
 - [ ] Lab: AWS Cloud Security Assessment
 - [ ] Lab: Active Directory Enumeration
 - [ ] 10 máquinas HackTheBox completas
 
-### Q4 2025 (Outubro - Dezembro)
+### Q4 2026 (Outubro - Dezembro)
 - [ ] Lab: Buffer Overflow (Windows/Linux)
 - [ ] Lab: Privilege Escalation Techniques
 - [ ] Preparação OSCP
