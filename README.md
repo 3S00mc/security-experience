@@ -35,7 +35,7 @@ security-experience/
 │   └── cloud-security/             # Segurança em ambientes cloud
 │
 ├── tools/                          # Ferramentas e scripts personalizados
-│   ├── scanners/                   # Scripts de scanning e reconhecimento
+│   ├── scripts/                    # Scripts customizados, para os mais diversos fins
 │   ├── exploits/                   # PoCs de exploits para fins educacionais
 │   └── automation/                 # Automação de tarefas de pentest
 │
